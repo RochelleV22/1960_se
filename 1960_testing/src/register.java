@@ -6,8 +6,8 @@ public class register {
 	
 	public register(String username, String password, String email_id) {
 		this.username = username;
-		this.username = password;
-		this.username = email_id;
+		this.password = password;
+		this.email_id = email_id;
 	}
 	
 	public Boolean registration(String username, String password, String email_id) {
